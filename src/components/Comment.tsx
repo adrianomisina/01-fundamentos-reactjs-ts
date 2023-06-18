@@ -24,7 +24,11 @@ const Comment = ({comment, onDeleteComment}:CommentProps) => {
 
   return (
     <div className={styles.comment}>
-        <Avatar hasBorder={false} src="https://avatars.githubusercontent.com/u/65734814?v=4"/>
+        <Avatar 
+            hasBorder={false} 
+            src="https://avatars.githubusercontent.com/u/65734814?v=4"
+            alt=''
+        />
 
         <div className={styles.commentBox}>
             <div className={styles.commentContent}>
